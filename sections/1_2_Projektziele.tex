@@ -1,52 +1,53 @@
 \clearpage
 \subsection{Projektziele}\label{subsec:Projektziele}
-In Tabelle \ref{tab:PlfichtundWunschziele} sind die Pflicht- und Wunschziele für dieses Projekt festgehalten. Diese sind an das Lastenheft des Auftraggebers angelehnt (siehe Anhang \ref{app:Lastenheft}).
+In Tabelle \ref{tab:PlfichtundWunschziele} sind die Pflicht- und Wunschziele für dieses Projekt festgehalten.
 
 \begin{table}[H]
-\begin{tabular}{ | C{0.9cm} | p{9cm} | | p{4.5cm} |}
+\begin{tabular}{ | C{0.9cm} | p{3.3cm} | p{10cm} |}
 	\hline
 	\multicolumn{3}{|l|}{\textbf{Pflichtziele}}\\ \hline
-\textbf{Nr.}& \textbf{Ziel}& \textbf{Messung der Zielerreichung}\\ \hline
+\textbf{Nr.}& \textbf{Ziel}& \textbf{Beschrieb}\\ \hline
 
-P1& Unabhängige Ansteuerung aller vier Schrittmotoren (x-, y-, z-Achse und Zuführung Filament), ohne das Schritte verloren gehen.&		Testfahrt über Zeit mit Kontrolle der Schritte\\ \hline
-    
-P2& Nullpositions-Erkennung der x-, y- und z-Achse.&		Positionserkennung mit mindestens $\pm 1mm$ Genauigkeit\\ \hline
-    
-P3& Regelung der Heizleistung von Extruder und Heizbett.&		Erreichen der Solltemperatur auf $\pm5^\circ C$\\ \hline
-    
-P4& Temperaturmessung für Extruder und Heizbett.&		Messgenauigkeit auf $\pm5^\circ C$\\ \hline
-    
-P5& Ansteuerung eines Ventilators (Kühlung der bereits gedruckten Strukturen).& Strukturen werden entsprechend gekühlt\\ \hline
-    	
-P6& Laden von GCode via SD-Karte und WLAN.&		Datei befindet sich auf SD-Karte\\ \hline
-    
-P7& Bedienelemente um alle wichtigen Funktionen des 3D-Druckers zu steuern (Taster, LEDs, Display, etc.)&	Interaktion mit Drucker möglich.\\ \hline
+P1 & Bluetooth-Mesh-Netzwerk & Eine variable Anzahl an BLE-Nodes bauen ein Mesh-Netzwerk auf um darin Datenaustausch zu ermöglichen.\\ \hline
 
-P8& 3D-Drucker soll funktionsfähig sein.&		Testdruck erfolgreich\\ \hline
+P2 & UPN & Der Universal-Peripheral-Node kann je nach Einsatz als Sensor oder Aktor konfiguriert und bestückt werden.\\ \hline
 
-P9& Möglichkeit zur manuellen Ansteuerung (alle Achsen und Sensoren).&	Die gewünschte Aktionen werden korrekt ausgeführt\\ \hline
+P3 & Low Power & Die UPN sind bezüglich Hardware und Software energiesparend konzipiert um sie autonom betreiben zu können.\\ \hline
+
+P4 & Netzunabhängig & Durch Versorgung mittels Batterie und Energy-Harvesting können die UPN komplett netzunabhängig betrieben werden.\\ \hline
+
+P5 & Energy-Harvesting & Für die Versorgung der UPN werden verschiedene Varianten für das Energy-Harvesting entwickelt. Das Ergebnis wird eine Variantenstudie sein.\\ \hline
+
+P6 & Gateway & Zur Konfiguration des Bluetooth-Mesh-Netzwerks steht ein Gateway basierend auf Standard Hardware (Raspberry-Pi o.ä.) zur Verfügung.\\ \hline
+    
+P7 & LAN/WLAN & Für die Integration in TCP/IP basierte Systeme bietet der Gateway eine entsprechende Schnittstelle.\\ \hline
+    
+P8 & HMI & Ein Human-Machine-Interface unterstützt den User bei der Konfiguration des Mesh-Netzwerks.\\ \hline
+    
+P9 & CLI & Mittels Command-Line-Interface kann das Mesh-Netzwerk verwaltet werden.\\ \hline
 
     	 \hline \hline   
  \multicolumn{3}{|l|}{\textbf{Wunschziele}}\\ \hline 	
     
     
-W1& Detektion wenn kein Filament mehr vorhanden ist (optisch oder mechanisch).&		System setzt entsprechende Meldung ab\\ \hline
+W1 & UPN Konfiguration via Mesh & Einstellungen des UPN können via Mesh Netzwerk angepasst werden und somit z.B. die Peripheriekonfiguration verändert werden.\\ \hline
 
-W2& Webseite mit Benutzeroberfläche um Druckaufträge zu verwalten zu verfolgen und abzurufen.&		Bedienung über Webseite möglich\\ \hline
+W2 & Firmwareupgrade via Mesh & Die Firmware der UPN wird via Mesh-Netzwerk aktualisiert. \\ \hline
 
-W3& Möglichst geringer Eigenverbrauch im Ruhezustand.&		Eigenverbrauch liegt unterhalb der Standard Lösung\\ \hline
+W3 & Security & Das Mesh-Netzwerk ist gegen unerlaubten Zugriff und sonstigen Angriffen geschützt.\\ \hline
 
-W4& Luftkanal für Ventilator herstellen (mechanische Änderung).&		Verbesserung der Kühlung\\ \hline
+W4 & Dedizierte UPN Hardware & Das UPN ist als dedizierte Hardware realisiert und somit einsatzbereit. \\ \hline
 
-W5& Verwenden einer Glasplatte auf dem Heizbett für bessere Druckqualität (mechanische Änderung).&		Erreicht / nicht erreicht\\ \hline
+W5 & Datenschnittstelle & Mittels passender Datenschnittstelle auf dem Gateway können Fremdsysteme wie Apple Homekit, Google Home oder KNX angebunden werden.\\ \hline
 
-W6& Verbesserung des Abrollvorgangs des Filaments (mechanische Änderung).&		Erreicht / nicht erreicht\\ \hline
+W6 & Webinterface & Für die Verwaltung des Mesh-Netzwerks und die Anbindung an Fremdsysteme steht ein Web Applikation zur Verfügung. \\ \hline
 
-W7& Kugellager durch Gleitlager ersetzen welche weniger verschleissen (mechanische Änderung).&		Erreicht / nicht erreicht\\ \hline
+W7 & Dedizierte Gateway Hardware & Der Gateway ist auf einer dedizierten Hardware umgesetzt. \\ \hline
 
-W8& Autoleveling der z-Achse.&		Erreicht / nicht erreicht\\ \hline
+W8 & GSM/LTE & Für Feldanwendungen besitzt der Gateway ein GSM/LTE Modul. \\ \hline
 
-W9& Encoder anstatt Taster als Bedienelemente.&		Erreicht / nicht erreicht\\ \hline
+W9 & Versuchsaufbau Energy-Harvesting & Erfolg versprechende Energy-Harvesting-Systeme werden in einem Versuchsaufbau auf deren Tauglichkeit weiter geprüft. \\ \hline
+
 
 \end{tabular}\\
 \caption{Pflicht- und Wunschziele}
