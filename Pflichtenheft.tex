@@ -1,7 +1,8 @@
 \documentclass[final]{fhnwreport}       %[mode] = draft or final
                                         %{class} = fhnwreport, article, 
                                         %          report, book, beamer, standalone
-\input{header}			                %loads all packages, definitions and settings											
+\input{header}			                %loads all packages, definitions and settings
+\addbibresource{literature/bibliography.bib}							
 \title{Pflichtenheft}  		        %Project Title
 \author{Anklin, Bobst, Horath}      				    %Document Type => Technical Report, ...
 \date{\today}          				   %Place and Date
@@ -70,7 +71,7 @@
 \clearpage
 %%---BIBLIOGRAPHY------------------------------------------------------------------------
 {\sloppypar
-\printbibliography
+\printbibliography[heading=bibintoc]
 \label{sec:lit}
 %\selectlanguage{ngerman}				%ngerman or english
 %\printbibliography
