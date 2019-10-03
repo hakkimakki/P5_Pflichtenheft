@@ -1,0 +1,67 @@
+
+Akzeptieren
+Datenschutzerklärung
+Blue tooth Test
+Entwicklungsgeschichte der Bluetooth-Technologie
+Bluetooth-Technologie
+
+Heutzutage gehört die Bluetooth-Technologie zu unserem Alltag, sei es im Job oder Zuhause. Vor allem für kabellose Verbindungen zwischen Smartphone und Zubehör wird der Technik-Standard häufig genutzt. Doch dies war nicht immer so, was die Frage aufwirft, wann und von wem Bluetooth erfunden wurde. Wir bringen Dir in diesem Artikel die Geschichte von Bluetooth näher und erklären außerdem, warum Bluetooth übersetzt Blauzahn heißt.
+Wer hat Bluetooth entwickelt?
+
+Schon in den späten 1980er Jahren gab es Bemühungen eine kabellose Datenübertragung zu ermöglichen. Zunächst schien dafür die Infrarot-Technologie geeignet zu sein und war auf dem Vormarsch. Verschiedene Unternehmen wie z.B. IBM oder HP schlossen sich zur  Infrared Data Association , kurz IrDA, zusammen, deren Ziel die Erforschung und Entwicklung eines einheitlichen Datenprotokolls via Infrarot war. Allerdings funktionierte die Datenübertragung nur bei bestehendem Sichtkontakt zwischen Sender und Empfänger. Ein Problem, aus dessen Lösung die Erfindung der Bluetooth-Technik resultierte.
+
+Im Jahr 1998 wurde eine neue Forschungsgemeinschaft, die  Bluetooth Special Interest Group mit der Abkürzung SIG, von den Firmen IBM, Toshiba, Intel, Nokia und Ericsson gegründet. Erstmalig präsentierte die SIG die Bluetooth Version 1.0a und 1.0b im Jahr 1999. Nach der Verbesserung einiger Fehler wurde dann im Februar 2001 die standardisierte Version 1.1 veröffentlicht. Seit der Einführung von Bluetooth für den Massenmarkt wurde die Technologie stetig weiterentwickelt und heute sind mehr als 30.000 Unternehmen teil der SIG. Doch bevor wir uns den unterschiedlichen Versionen zuwenden wollen, möchten wir Dir noch offenbaren, was hinter dem Namen Blauzahn steckt.
+Warum heißt Bluetooth eigentlich Blauzahn?
+
+Harald Blauzahn war nicht etwa der Erfinder von Bluetooth, sondern ein berühmter dänischer König. Ihm gelang es im 10. Jahrhundert, die verfeindeten Länder Dänemark und Norwegen  zu vereinen und die Christianisierung Skandinaviens voranzutreiben. Da Harald Blauzahn, englisch Harald Bluetooth , für seine Kommunikationsfreudigkeit bekannt war, wurde der Name zunächst intern von der SIG für die neu entwickelte Drahtlos-Technologie verwendet. Aufgrund der großen Bemühungen der skandinavischen Firmen Ericsson und Nokia innerhalb der Forschungsgruppe wurde der Markenname schließlich auch öffentlich verwendet.
+
+Doch nicht nur der Name ist eine Hommage an den dänischen König, auch das Logo spiegelt seine Initialen wider. Es vereint die altnordischen Runen Hagalaz, also den Buchstaben “H”, und Berkano, die Rune für “B”, in einem Monogramm.
+Die Entwicklung der Bluetooth-Versionen im Überblick
+
+Mit der voranschreitenden Erforschung der Bluetooth-Technologie konnten immer weitere Verbesserungen vorgenommen und Fehler vorheriger Versionen beseitigt werden. Verschaffe Dir also einen Überblick über die Features der verschiedenen Bluetooth-Versionen und ihre Entwicklung.
+Bluetooth 1.0a & 1.0b
+
+Die im Juli und Dezember 1999 vorgestellten Bluetooth-Versionen waren mit maximal 732,2 kbit/s sehr langsam und hatten mit erheblichen Sicherheitslücken zu kämpfen.
+Bluetooth 1.1
+
+Im Februar 2001 folgte die erste massentaugliche Version 1.1, die Daten zwar weiterhin mit derselben Geschwindigkeit übertrug wie ihre Vorgängerversionen, aber mit einer erhöhten Signalstärke sowie ausgemerzten Sicherheitsproblemen auf den Markt kam.
+Bluetooth 1.2
+
+Resistenter gegen fremde Signale, wie z.B. WLAN, und mit einer verbesserten Übertragungsrate von 1 Mbit/s wurde im November 2003 eine neue Bluetooth-Version veröffentlicht.
+Bluetooth 2.0 + EDR
+
+Ein Jahr später ermöglichte die neue Enhanced Data Rate/EDR etwa die dreifache Geschwindigkeit zu vorherigen Versionen bis maximal 2,1 Mbit/s und war zudem abwärtskompatibel.
+Bluetooth 2.1 + EDR
+
+Im August 2007 brachte das sog. Lisbon Release neue Funktionen wie z.B. Secure Simple Pairing.
+Bluetooth 3.0 + HS
+
+Diese Version wurde im April 2009 publik gemacht und ermöglichte theoretisch eine noch höhere Datenrate durch die Nutzung eines zweiten Highspeed-Kanals, daher die Abkürzung HS. Von Privatkunden wurde dies in der Praxis allerdings so gut wie nie genutzt, außerdem traten Störungen durch WLAN-Netzwerke in der Nähe auf. Daher wurde diese Version nur wenige Monate betrieben und zusätzlich die Version 3.0 + EDR veröffentlicht.
+Bluetooth 4.0
+
+Bereits im Oktober 2009 folgte die nächste Version, die mit dem Low Energy Feature neue Möglichkeiten und eine längere Nutzungsdauer einführte. Bis auf die neue Technologie war auch diese Version abwärtskompatibel. Mit der Einführung von Bluetooth 4.0 kamen viele Produkte auf den Markt, die vom niedrigeren Stromverbrauch profitieren konnten wie z.B. Fitness-Armbänder. Die Übertragung von Musik ist im Low Energy Modus allerdings nicht möglich, da diese Übertragungsform einer dauerhaften Kommunikation der Geräte bedarf. Andere Geräte, welche die Funktion nutzen, bleiben dauerhaft in einem schlafähnlichen Zustand gepaart und werden nur “geweckt”, wenn dies erforderlich ist.
+Bluetooth 4.1
+
+Ende 2013 folgte die Weiterentwicklung der vorherigen Version. Auch neue Geräte wie das Nexus 6 wurden in diesem Zuge angekündigt.
+Bluetooth 4.2 Smart
+
+Ein weiteres Jahr später kam die Version 4.2 mit verbessertem Sicherheitsstandard, weiterentwickeltem Low Energy Standard und noch schnellerer Übertragungsgeschwindigkeit auf den Markt.
+Bluetooth 5.0
+
+Seit Dezember 2016 ist die fünfte Version unser aktueller Bluetooth-Standard und ermöglicht es, ein mit dieser Version kompatibles Gerät beispielsweise mit zwei verschiedenen Bluetooth-Lautsprechern zu verbinden und eine parallele Wiedergabe zu aktivieren.
+Die Entwicklungsgeschichte zusammengefasst:
+
+    In den 1980er Jahren gab es erste Bemühungen eine kabellose Datenübertragung zu ermöglichen
+    1998 wurde eine Forschungsgemeinschaft namens  Bluetooth Special Interest Group  mit der Abkürzung SIG, von den Firmen IBM, Toshiba, Intel, Nokia und Ericsson gegründet
+    1999 präsentierte die SIG die Bluetooth Version 1.0a und 1.0b
+     Da Harald Blauzahn (ein dänischer König), englisch  Harald Bluetooth , für seine Kommunikationsfreudigkeit bekannt war, wurde der Name von der SIG für die neu entwickelte Drahtlos-Technologie verwendet
+    Das  Logo  spiegelt die Initialen des dänischen Königs wider. Es vereint die altnordischen Runen Hagalaz für “H”, und Berkano für “B”
+    Die Bluetooth Versionen reichen vom der allererste 1.0a & 1.0b (1999) bis hin zu der im 2016 entwickelten neusten Version 5.0
+
+Fotocredits: © metamorworks - Fotolia.com
+Copyright © 2019 - Bluetooth Test
+
+    Impressum
+    Datenschutz
+
+Amazon.de Preis Aktualisierung am 30.09.2019

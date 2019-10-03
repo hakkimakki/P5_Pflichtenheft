@@ -1,0 +1,398 @@
+﻿/* All HubSpot Forms
+   ========================================================================== */
+
+
+@font-face {
+    font-family: 'GT-Eesti-Thin';
+    /*src: url('../NordicFonts/GT Eesti/GTEestiProDisplay-Thin.otf') format('opentype');*/
+    src: url('../NordicFonts/GT Eesti/GTEestiProDisplay-Thin.eot?') format('eot'), url('../NordicFonts/GT Eesti/GTEestiProDisplay-Thin.woff') format('woff'), url('../NordicFonts/GT Eesti/GTEestiProDisplay-Thin.ttf') format('truetype'), url('../NordicFonts/GT Eesti/GTEestiProDisplay-Thin.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'GT-Eesti-Medium';
+    /*src: url('../NordicFonts/GT Eesti/GTEestiProDisplay-Medium.otf') format('opentype');*/
+    src: url('../NordicFonts/GT Eesti/GTEestiProDisplay-Medium.eot?') format('eot'), url('../NordicFonts/GT Eesti/GTEestiProDisplay-Medium.woff') format('woff'), url('../NordicFonts/GT Eesti/GTEestiProDisplay-Medium.ttf') format('truetype'), url('../NordicFonts/GT Eesti/GTEestiProDisplay-Medium.otf') format('opentype');
+}
+
+
+.hs-form fieldset {
+    max-width: 100%;
+    width: auto !important;
+}
+
+
+/* Form Field (selector for form field wrapper) */
+.hs-form .hs-form-field {
+}
+
+/* Descriptions (targets class applied to Help Text divs) */
+.hs-form .hs-field-desc {
+    border-bottom:none!important;
+
+}
+
+/* Labels (selects field labels and error messages) */
+.hs-form label {
+    font-size:16px !important;
+}
+
+    .hs-form label span:not(.title):not(.desc) {
+        max-width: 90%;
+        display: inline-block;
+    }
+
+.hs-form label span span.title {
+    font-size: 18px !important;
+}
+
+    .hs-form label span span.desc {
+        margin-top: 10px;
+        display: block;
+        font-size: 14px !important;
+    }
+
+.hs-form .hs-form-field > label {
+}
+
+
+.legal-consent-container .field.hs-form-field {
+    margin-bottom: -5px;
+}
+
+.hs-richtext p{
+    margin-bottom:5px;
+}
+
+.hs-dependent-field ul.inputs-list {
+    margin: 5px 0 30px !important;
+}
+/* Inputs (selectors for all inputs)  */
+.hs-form input[type="text"],
+.hs-form input[type="password"],
+.hs-form input[type="datetime"],
+.hs-form input[type="datetime-local"],
+.hs-form input[type="date"],
+.hs-form input[type="month"],
+.hs-form input[type="time"],
+.hs-form input[type="week"],
+.hs-form input[type="number"],
+.hs-form input[type="email"],
+.hs-form input[type="url"],
+.hs-form input[type="search"],
+.hs-form input[type="tel"],
+.hs-form input[type="color"],
+.hs-form input[type="file"],
+.hs-form textarea,
+.hs-form select {
+    border: 1px solid #99A4AE !important;
+    background-color: rgba(255,255,255,0.3) !important;
+    height: 54px;
+    color: #333F48;
+    font-family: "GT-Eesti-Thin";
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 26px;
+    border-radius: 0;
+    padding: 2px 0 0 30px;
+}
+
+.hs-form textarea {
+    padding: 30px;
+    height: 160px;
+}
+
+
+.hs-form .inputs-list .hs-input {
+    width: auto !important;
+    max-width: 100% !important;
+    box-sizing: border-box !important;
+    float:left;
+}
+
+/* Inputs in focus (selectors for all inputs when clicked)  */
+.hs-form input[type="text"]:focus,
+.hs-form input[type="password"]:focus,
+.hs-form input[type="datetime"]:focus,
+.hs-form input[type="datetime-local"]:focus,
+.hs-form input[type="date"]:focus,
+.hs-form input[type="month"]:focus,
+.hs-form input[type="time"]:focus,
+.hs-form input[type="week"]:focus,
+.hs-form input[type="number"]:focus,
+.hs-form input[type="email"]:focus,
+.hs-form input[type="url"]:focus,
+.hs-form input[type="search"]:focus,
+.hs-form input[type="tel"]:focus,
+.hs-form input[type="color"]:focus,
+.hs-form input[type="file"]:focus,
+.hs-form textarea:focus,
+.hs-form select:focus {
+    border-color: none;
+    box-shadow: none;
+    outline: 0 none;
+}
+
+/* Multi-line inputs (selectors to target multi-line fields */
+.hs-form textarea {
+}
+
+    .hs-form textarea:focus {
+    }
+
+/* Dropdowns (selectors for dropdowns) */
+.hs-form select {
+}
+
+    .hs-form select:focus {
+    }
+
+/* Multi-select (selectors for multi-select fields) */
+.hs-form form.hs-form .hs-form-field ul.inputs-list {
+}
+
+ul.inputs-list .hs-form-checkbox {
+    float: none;
+    display: block;
+    width: 100%;
+    margin: 0px 0px 20px;
+}
+
+@media screen and (max-width: 768px) {
+    ul.inputs-list .hs-form-checkbox {
+        width: 100%;
+    }
+}
+
+ul.inputs-list {
+    margin: 25px 0 !important;
+}
+
+
+.hs-form form.hs-form .hs-form-field ul.inputs-list li input {
+}
+
+.hs-form input[type="radio"] {
+}
+
+.hs-form input[type="checkbox"] {
+}
+
+/* Required (selectors for fields, when they do not pass validation) */
+.hs-form input:focus:required:invalid,
+.hs-form textarea:focus:required:invalid,
+.hs-form select:focus:required:invalid {
+    border-color: none;
+    box-shadow: none;
+    outline: 0 none;
+}
+
+    .hs-form input:focus:required:invalid:focus,
+    .hs-form textarea:focus:required:invalid:focus,
+    .hs-form select:focus:required:invalid:focus {
+        border-color: none;
+        box-shadow: none;
+        outline: 0 none;
+    }
+
+/* Error message (selector for validation messages) */
+.hs-form .hs-error-msgs label {
+}
+
+/* Placeholder Text (styles the placeholder attribute text) */
+::-webkit-input-placeholder { /* Webkit Browsers */
+}
+
+:-moz-placeholder { /* Firefox 18- */
+}
+
+::-moz-placeholder { /* Firefox 19+ */
+}
+
+:-ms-input-placeholder { /* IE10 */
+}
+
+/* Multi Column Form (selectors for fieldsets and field wrappers) 
+   ========================================================================== */
+
+.hs-form .hs-form fieldset.form-columns-1 {
+}
+
+    .hs-form .hs-form fieldset.form-columns-1 .hs-form-field {
+        width: 100% !important;
+    }
+
+.hs-form .hs-input {
+    width: 100% !important;
+    max-width: 100% !important;
+    box-sizing: border-box !important;
+}
+
+
+.hs-form input:not([type="image"]) {
+    box-sizing: border-box !important;
+}
+
+.hs-form .hs-form fieldset.form-columns-2 {
+    position: relative;
+}
+
+    .hs-form .hs-form fieldset.form-columns-2 .hs-form-field {
+        width: 50% !important;
+        float: left;
+    }
+
+.hs-form .hs-form fieldset.form-columns-3 {
+}
+
+    .hs-form .hs-form fieldset.form-columns-3 .hs-form-field {
+    }
+
+/* Submit buttons (selectors for all non-CTA buttons) 
+   ========================================================================== */
+
+.hs_submit .hs-button {
+    background: #22A8CA;
+    color: #FFFFFF;
+    font-family: "GT-Eesti-Medium" !;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 15px;
+    text-align: center;
+    float: right;
+    border: none;
+    padding: 20px 0;
+    min-width: 210px;
+    position: relative;
+    border-radius: 0;
+}
+
+    .hs_submit .hs-button:after {
+        content: '';
+        background: linear-gradient(29.5deg, transparent 50%, rgba(255, 255, 255, 0.2) 50%);
+        width: 150%;
+        height: 150%;
+        position: absolute;
+        right: 0;
+        top: 30%;
+        left: 70%;
+        transform: translate(-50%, -50%);
+        -webkit-transition: all 0.35s ease;
+        -moz-transition: all 0.35s ease;
+        -ms-transition: all 0.35s ease;
+        -o-transition: all 0.35s ease;
+        transition: all 0.35s ease;
+    }
+
+
+    .hs_submit .hs-button:hover {
+        box-shadow: none !important;
+        border-top: none !important;
+        border-bottom: none !important;
+        border-right: none !important;
+        border-left: none !important;
+        border: none !important;
+    }
+
+body .hs-button.primary:focus,
+body input[type="submit"]:focus,
+body input[type="button"]:focus {
+    box-shadow: none !important;
+    border-top: none !important;
+    border-bottom: none !important;
+    border-right: none !important;
+    border-left: none !important;
+    border: none !important;
+}
+
+
+.hs_file_upload {
+    position: relative;
+    height: 60px;
+}
+
+    .hs_file_upload .input {
+        width: 80px;
+        height: 54px;
+        display: block;
+        position: absolute;
+        overflow: hidden;
+        cursor: pointer;
+        -webkit-border-top-right-radius: 5px;
+        -webkit-border-bottom-right-radius: 5px;
+        -moz-border-radius-topright: 5px;
+        -moz-border-radius-bottomright: 5px;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        font-weight: bold;
+        color: #FFF;
+        text-align: center;
+        padding-top: 8px;
+    }
+
+
+        .hs_file_upload .input:before {
+            content: '\e956';
+            position: absolute;
+            left: 0;
+            right: 0;
+            text-align: left;
+            color: #22A8CA;
+            cursor: pointer;
+            font-family: 'icomoon';
+            font-size: 50px;
+            z-index: 1;
+        }
+
+
+.hs-form input[type="file"] {
+    border: none !important;
+    border-bottom: 1px solid #99A4AE !important;
+    padding-left: 0px;
+}
+
+
+.hs_file_upload .input input {
+    position: relative;
+    height: 50px;
+    width: 250px;
+    display: inline;
+    cursor: pointer;
+    opacity: 0;
+    z-index: 9;
+}
+
+.valFromFile {
+    top: 30px;
+    position: relative;
+    padding-left: 70px;
+}
+
+
+.valFromFile {
+    display: none;
+}
+
+    .valFromFile:first-of-type {
+        display: block;
+    }
+
+
+.hs_nordic_newsletter_subscriptions li:nth-of-type(1) label:before {
+    content: "DOCUMENTATION AND SOFTWARE";
+    display: block;
+    position: relative;
+    top: -15px;
+    left: 0;
+    padding-top: 30px;
+    color: #00a8d7;
+}
+
+.hs_nordic_newsletter_subscriptions li:nth-of-type(3) label:before {
+    content: "NEWS AND PRODUCT RELEASES";
+    display: block;
+    position: relative;
+    top: -15px;
+    left: 0;
+    padding-top: 40px;
+    color: #00a8d7;
+}

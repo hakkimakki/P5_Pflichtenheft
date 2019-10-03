@@ -1,0 +1,573 @@
+
+
+This website uses cookies.
+
+We use our own and third-party cookies to improve our services, personalize your advertising and remember your preferences.
+
+To find out more about the types of cookies we use and how to disable them, see our privacy policy .
+
+Accept
+
+    Products
+        Products Back
+        All products
+        Low power cellular IoT
+            Low power cellular IoT Back
+            nRF91 Series products
+            nRF9160 SiP
+            nRF91 Series resources
+            nRF9160 certifications
+            nRF9160 certifications
+        Low power short-range wireless
+            Low power short-range wireless Back
+            nRF52 Series
+            nRF52840 high-end SoC
+            nRF52832 mainstream SoC
+            nRF52811 direction-finding SoC
+            nRF52810 baseline SoC
+            nRF51 Series
+            nRF51822 Bluetooth LE capable SoC
+            nRF51422 ANT capable SoC
+            nRF51824 automotive qualified SoC
+            nRF51802 Bluetooth LE capable SoC
+            nRF8000 (legacy)
+            nRF24 series (legacy)
+            Bluetooth Low Energy
+                Bluetooth Low Energy Back
+                Featured Bluetooth LE SoCs
+                nRF52840 high-end SoC
+                nRF52832 mainstream SoC
+                nRF52811 direction-finding SoC
+                nRF52810 baseline SoC
+                Featured development kits
+                nRF52840 DK
+                nRF52 DK
+                Nordic Thingy:52
+                Bluetooth software
+            Bluetooth mesh
+                Bluetooth mesh Back
+                Featured Bluetooth mesh SoCs
+                nRF52840 high-end SoC
+                nRF52832 mainstream SoC
+                Featured development kits
+                nRF52840 DK
+                nRF52 DK
+                Bluetooth software
+            Direction Finding
+                Direction Finding Back
+                Featured direction-finding SoCs
+                nRF52811 direction-finding SoC
+                Featured development kits
+                nRF52840 DK
+            Thread
+                Thread Back
+                Featured Thread SoCs
+                nRF52840 High-end SoC
+                nRF52811 direction-finding SoC
+                Featured development kits
+                nRF52840 DK
+                Thread software
+            Zigbee
+                Zigbee Back
+                Featured Zigbee SoCs
+                nRF52840 high-end SoC
+                Featured development kits
+                nRF52840 DK
+                Zigbee software
+            Multiprotocol
+                Multiprotocol Back
+                Featured nRF52 Series SoCs
+                nRF52840 high-end SoC
+                nRF52832 mainstream SoC
+                Featured development kits
+                nRF52840 DK
+                nRF52 DK
+            ANT
+                ANT Back
+                Featured ANT SoCs
+                nRF52840 high-end SoC
+                nRF52832 mainstream SoC
+                nRF52810 baseline SoC
+                Featured development kits
+                nRF52840 DK
+                nRF52 DK
+                ANT software
+            2.4 GHz proprietary RF
+                2.4 GHz proprietary RF Back
+                nRF52 Series
+                nRF52840 high-end SoC
+                nRF52832 mainstream SoC
+                nRF52811 direction-finding SoC
+                nRF52810 baseline SoC
+                nRF51 Series
+                nRF51822 Bluetooth LE capable SoC
+                nRF51422 ANT capable SoC
+                nRF51824 automotive qualified SoC
+                nRF24 Series (legacy)
+        3rd-party modules
+    Software and tools
+        Software and tools Back
+        Software and tools
+        Development kits
+            Development kits Back
+            nRF91 Series development kits
+            nRF9160 DK
+            nRF52 Series development kits
+            nRF52 DK
+            nRF52840 DK
+            nRF52840 Dongle
+            nRF51 Series development kits
+            nRF51 DK
+            nRF51 Dongle
+            Power Profiler Kit
+        Prototyping platforms
+            Prototyping platforms Back
+            nRF52 Series Prototyping platforms
+            Nordic Thingy:52
+            nRF91 Series Prototyping platforms
+            Nordic Thingy:91
+        Software
+            Software Back
+            nRF9 SDK
+            nRF Connect SDK
+            nRF5 SDKs
+            nRF5 SDK
+            nRF5 SDK for Mesh
+            nRF5 SDK for Thread and Zigbee
+            nRF5 SDK for Airfuel
+            nRF5 SDK for HomeKit
+            nRF52 SoftDevices
+            S112: Bluetooth 5 qualified
+            S132: Bluetooth 5 qualified
+            S140: Bluetooth 5 qualified
+            S212: ANT
+            S312: ANT + Bluetooth 5
+            S332: ANT + BLE
+            S340: ANT + Bluetooth 5
+            nRF51 SoftDevices
+            S110: Bluetooth 4.1 qualified
+            S120: Bluetooth 4.1 qualified
+            S130: Bluetooth 4.2 qualified
+            S210 (ANT)
+            S310 (ANT)
+            nRF MDK
+            Bluetooth software
+                Bluetooth software Back
+                Featured Bluetooth SDKs
+                nRF5 SDK
+                nRF5 SDK for Mesh
+                nRF5 SDK for AirFuel
+                nRF5 SDK for HomeKit
+                Featured Bluetooth SoftDevices
+                S112: Bluetooth 5 qualified
+                S113: Bluetooth 5 qualified
+                S132: Bluetooth 5 qualified
+                S140: Bluetooth 5 qualified
+            Thread software
+                Thread software Back
+                Featured Thread SDKs
+                nRF5 SDK for Thread and Zigbee
+            Zigbee software
+                Zigbee software Back
+                Featured Zigbee SDKs
+                nRF5 SDK for Thread and Zigbee
+            ANT software
+                ANT software Back
+                Featured ANT SDKs
+                nRF5 SDK
+                Featured ANT SoftDevices
+                S212: ANT
+                S312: ANT + Bluetooth 5
+                S332: ANT + Bluetooth 5
+                S340: ANT + Bluetooth 5
+            802.15.4 software
+                802.15.4 software Back
+                Featured 802.15.4 SDKs
+                nRF5 SDK
+                nRF5 SDK for Thread and Zigbee
+        Development tools
+            Development tools Back
+            Featured development tools
+            nRF Sniffer for 802.15.4
+            nRF Sniffer for Bluetooth LE
+            SEGGER Embedded Studio
+            nRF Connect for Desktop
+            nRF Connect for Mobile
+            nRF Connect for Cloud
+            IDEs and toolchains
+            Test and evaluation software
+            Mobile apps
+            Cloud development
+        Reference designs
+            Reference designs Back
+            Featured reference designs
+            nRFready Smart Remote 3 for nRF52 Series
+            nRFready Smart Remote 3 for nRF51 Series
+            nRFready Desktop 2
+        Modules and other 3rd-party
+            Modules and other 3rd-party Back
+            IDEs and Toolchains
+            3rd Party Modules
+            3rd Party Beacons
+    News
+        News Back
+        News releases
+        News archive
+        Wireless Quarter
+        Events
+        Webinars
+    Applications
+    Support
+        Support Back
+        Tech support resources
+        Documentation
+        Get started
+        Quality assurance (QA)
+    About us
+        About us Back
+        About Nordic Semiconductor
+            About Nordic Semiconductor Back
+            Board of directors
+            Management
+        Contact us
+            Contact us Back
+            Contact form
+            Visit us
+            Find a distributor
+        Investor relations
+            Investor relations Back
+            Investor relations policy
+            Annual reports
+            Quarterly reports
+        Privacy policy
+        Quality assurance (QA)
+        Corporate social responsibility
+            Corporate social responsibility Back
+            Anti-corruption
+            Conflict minerals
+            Environment
+            Health and safety
+            Human rights and labor rights
+        Career
+            Career Back
+            Recruitment privacy policy
+            Vacant positions
+            Inside Nordic
+
+    Home
+    Products
+    Low power short-range wireless
+    Bluetooth mesh
+    Featured Bluetooth mesh SoCs
+    nRF52840 high-end SoC
+
+nRF52840 QIAA
+QFN73 7x7mm
+nRF52840 WLCSP System on chip
+WLCSP 3.5x3.6mm
+
+    QFN73 7x7mm
+    WLCSP 3.5x3.6mm
+
+日本語 Eng
+nRF52840 System on Chip
+Advanced Bluetooth 5, Thread and Zigbee multiprotocol SoC
+
+The nRF52840 SoC is the most advanced member of the nRF52 Series SoC family. It meets the challenges of sophisticated applications that need protocol concurrency and a rich and varied set of peripherals and features.  It offers generous memory availability for both Flash and RAM, which are prerequisites for such demanding applications.
+
+The nRF52840 is fully multiprotocol capable with full protocol concurrency. It has protocol support for Bluetooth 5, Bluetooth mesh, Thread, Zigbee, 802.15.4, ANT and 2.4 GHz proprietary stacks.
+
+The nRF52840 is built around the 32-bit ARM® Cortex™-M4 CPU with floating point unit running at 64 MHz. It has NFC-A Tag for use in simplified pairing and payment solutions. The ARM TrustZone® CryptoCell cryptographic unit is included on-chip and brings an extensive range of cryptographic options that execute highly efficiently independent of the CPU. It has numerous digital peripherals and interfaces such as high speed SPI and QSPI for interfacing to external flash and displays, PDM and I 2 S for digital microphones and audio, and a full speed USB device for data transfer and power supply for battery recharging.
+
+Exceptionally low energy consumption is achieved using a sophisticated on-chip adaptive power management system.
+
+Download PDF nRF52840 product brief [PDF]
+
+Download zip file nRF52840 QIAA reference layout [ZIP]
+
+Download zip file nRF52840 CKAA reference layout [ZIP]
+Get documentation Notify me about updates
+×
+Subscribe to updates
+Yes! I want to receive newsletters from Nordic Semiconductor
+Click to select the newsletters you would like to receive *
+
+    Product Update Notifications
+    Instant notifications on new versions of documentation and software
+    Product Lifecycle Information
+    Instant notifications on PCN, PDN, Errata and environmental updates
+    Nordic News Releases
+    Instant news, customer stories and press releases
+    Connected News
+    Monthly summary of news, articles and press releases
+    Wireless Q
+    Quarterly magazine to keep you up-to-date on what's happening with Bluetooth Low Energy, ANT+, Thread, Zigbee, 2.4GHz proprietary and low power cellular IoT
+    Get Connected Blog
+    Weekly updates mostly for those who are new to the connected world of IoT, to understand the opportunities and challenges of IoT
+
+Please enter email address *
+Select the description that fits you best *
+
+Please confirm that:
+
+It is OK for Nordic Semiconductor to send emails to my email address entered above
+
+    Ok, I agree.
+
+It is OK for Nordic Semiconductor to store and process the personal information I have submitted, in order to provide me their services
+
+    OK, I agree.
+    *
+
+You may change your communications preferences at any time. More info in our Privacy Policy .
+Buy online
+Find distributor
+Ask us about this
+×
+Contact us
+Technical questions Sales related questions General feedback - no reply
+Key Features
+Bluetooth 5
+2 Mbps + Long Range
+Thread and Zigbee
+support
+M4F
+Cortex
+NFC
+Tag
+USB
+2.0
+1 MB
+Flash
+256 KB
+RAM
++8 dBm
+output power
+-95 dBm
+sensitivity
+12bit
+ADC
+CryptoCell
+HW acc
+×
+Ordering codes
+×
+
+nRF52840 order codes
+
+Click links below for online distributor inventory lookup:
+
+nRF52840-QIAA-R7 , 7-inch reel
+
+nRF52840-QIAA-R , 13-inch reel
+
+nRF52840-QIAA-T , Tray
+nRF52 Series is Bluetooth 5
+
+Feature overview
+5
+Bluetooth 5  	nRF52810 	nRF52811
+	nRF52832  	nRF52840 
+2 Mbps 	Yes 	Yes 	Yes 	Yes
+CSA #2 	Yes  	Yes 	Yes 	Yes
+Advertising Extensions 		Yes 	Yes 	Yes
+Long Range 	
+	Yes 	
+	Yes
+
+    Overview
+    Compatible Downloads
+    Get started
+
+nRF52 Series SoCs
+
+Overview
+nRF52810 QFA
+nRF52810 QFA nRF52810 SoC
+
+Baseline nRF52 Series multiprotocol SoC optimized for wide market appeal and cost-constrained applications.
+
+64 MHz Cortex-M4
+192 KB Flash, 24 KB RAM
+2.4 GHz Transceiver
+2 Mbps, 1 Mbps
+Bluetooth 5
+ANT
++4 dBm TX Power
+128-bit AES CCM
+UART, SPI, TWI, PDM  
+PWM
+
+12-bit ADC
+
+
+
+Read more
+nRF52811 System-on-Chip
+nRF52810 QFA nRF52811 SoC
+
+Baseline nRF52 Series SoC with comprehensive protocol support, including Bluetooth 5.1 Direction Finding.
+
+64 MHz Cortex-M4
+192 KB Flash, 24 KB RAM
+2.4 GHz Transceiver
+2 Mbps, 1 Mbps, Long Range
+Bluetooth 5.1 Direction Finding
+ANT, 802.15.4, Thread, Zigbee
++4 dBm TX Power
+128-bit AES CCM
+UART, SPI, TWI, PDM  
+PWM
+
+12-bit ADC
+
+
+
+Read more
+nRF52832 CIAA_2
+nRF52832 CIAA_2 nRF52832 SoC
+
+General-purpose nRF52 Series multiprotocol SoC with high performance and broad peripheral set.
+
+64 MHz Cortex-M4F
+512/256 KB Flash, 64/32 KB RAM
+2.4 GHz Transceiver
+2 Mbps, 1 Mbps
+Bluetooth 5, Bluetooth mesh
+ANT
++4 dBm TX Power
+128-bit AES CCM
+UART, SPI, TWI, PDM, I2S
+PWM
+12-bit ADC
+
+NFC-A
+
+
+Read more
+nRF52840 QIAA
+nRF52840 QIAA nRF52840 SoC
+
+High-end nRF52 Series multiprotocol SoC for high-performance, feature-rich applications with best-in-class security.
+
+64 MHz Cortex-M4F
+1 MB Flash, 256 KB RAM
+2.4 GHz Transceiver
+2 Mbps, 1 Mbps, Long Range
+Bluetooth 5, Bluetooth mesh
+ANT, 802.15.4, Thread, Zigbee
++8 dBm TX Power
+128-bit AES CCM, ARM CryptoCell
+UART, SPI, TWI, PDM, I2S, QSPI
+PWM
+12-bit ADC
+NFC-A
+USB 2.0
+Read more
+See all
+SoftDevices
+
+Compatible with nRF52840
+S140: Bluetooth 5
+
+The S140 is a feature-complete Bluetooth 5 protocol stack for the nRF52811 and nRF52840 SoCs.
+Bluetooth 5.1 qualified
+2 Mbps, 1 Mbps, Long Range
+Advertising Extensions & CSA #2
+20 concurrent Central / Peripheral links with Observer & Broadcaster
+Configurable number of connections and properties
+LE Secure Connections
+Privacy 1.2
+Configurable ATT Table
+Configurable ATT MTU
+Custom UUID support
+Support for concurrent multiprotocol with Thread, Zigbee, Bluetooth mesh and 2.4 GHz proprietary protocols
+LE Data Packet Length Extension
+L2CAP connection-oriented channels
+Read more
+Relevant SDKs
+
+Click to read more
+nRF5 SDK_list nRF5 SDK
+
+The Bluetooth and ANT software development kit
+The nRF5 SDK is a high quality, thoroughly tested software development kit to accelerate your software development efforts for the nRF52 and nRF51 Series SoCs. It contains hundreds of useful firmware modules and examples to assist in building your application.
+ 
+Read more
+nRF5 SDK_list nRF5 SDK for Mesh
+
+The nRF5 SDK for mesh is ideal for developing applications that use Bluetooth mesh networks . It is a richly featured SDK for building sophisticated solutions with Bluetooth mesh.
+Read more
+nRF5 SDK_list nRF5 SDK for Thread and Zigbee
+
+nRF5 SDK for Thread and Zigbee is a complete solution  for building Thread 1.1 and Zigbee 3.0 certified products. It utilizes the the multiprotocol capabilities of the nRF52840 wireless SoC. This enables single-chip application development supporting both Bluetooth LE and Thread or Zigbee, concurrently. It also has limited support for the nRF52811.
+Read more
+nRF5 SDK_list nRF5 SDK for HomeKit
+
+The nRF5 SDK for HomeKit combined with the nRF52 Series wireless SoCs provide developers with a unique solution for HomeKit products that meets all requirements on size, power consumption and performance.
+Read more
+See all
+Development kits
+
+Evaluate, prototype and develop with nRF52840
+nRF52840 DK promo
+DevKit nRF52840 DK
+
+The nRF52840 DK is a Bluetooth 5, Bluetooth mesh, Thread and Zigbee development kit for the nRF52811 and nRF52840 SoCs.
+Read more
+nRF52840 Dongle promo
+DevKit nRF52840 Dongle
+
+The nRF52840 Dongle is complementary hardware to the nRF Connect for Desktop. It supports Bluetooth 5, Bluetooth mesh, Thread and Zigbee.
+Read more
+Power Profiler Kit
+DevKit Power Profiler Kit
+
+The Power Profiler Kit is an easy to use tool for measurement and optimization of power consumption for embedded solutions.
+Read more
+Related Applications
+
+Click to learn more
+Connected home
+Industrial automation
+LED lighting
+Logistics & transport
+Retail & payment
+Wearables
+Latest news
+Product
+9
+Sep
+2019
+
+iBASIS and Nordic blow away any question marks on eSIM NB-IoT and LTE-M technology with massive successful field-testing... Read More
+Corporate
+2
+Sep
+2019
+
+Nordic expands distribution network in India with new sales and design support agreement with Millennium Semiconductors Read More
+Product
+22
+Aug
+2019
+
+Based on Nordic’s nRF9160 SiP multimode LTE-M/NB-IoT SiP with GPS, the battery-powered Nordic Thingy:91 is a rapid proto... Read More
+日本語
+한글
+繁體
+简体
+News archive
+×
+
+    Products
+    News
+    Events
+    Support
+    Documentation
+    About
+
+Didn't find what you where looking for?
+Contact us
+Follow us!
+
