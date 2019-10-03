@@ -1,16 +1,17 @@
 \clearpage
-\section{Hardware / Machine Controlling System}\label{sec:Hardware}
+\section{Hardware}\label{sec:Hardware}
 Das \textit{Machine Controlling System} dient der Steuerung des 3D-Druckers sowie der Regelung einzelner Komponenten. Es setzt sich aus mehreren funktional verschiedenen Einheiten zusammen, welche in diesem Kapitel beschrieben werden.
 
 
-\subsection{Motor Control Unit (MCU)}\label{subsec:MCU}
-Die \textit{Motor Control Unit} ist für die Ansteuerung der Schrittmotoren zuständig. Es sollen vier Schrittmotoren angesteuert werden. Dabei handelt es sich um den Extrudermotor, welcher das Filament fördert und die drei Achsenmotoren für die x-, y- und z-Bewegungen. Die Ansteuerung soll mittels Motorentreiber realisiert werden. Der Mikrocontroller soll mit der Firmware \textit{Marlin} gemäss Kapitel \ref{subsec:PCU} arbeiten. Dabei stehen jedem Schrittmotor drei Digitalpins vom Mikrocontroller zur Verfügung. Dabei handelt es sich um einen Enable Pin (\textit{EN}), welcher den Treiber aktiviert, einem Signal (\textit{DIR}) für die Drehrichtung des Schrittmotors und einem Schrittgeber (\textit{STEP}), welcher jeweils mittels positiver Flanke den jeweiligen Schrittmotor um einen Schritt weiter dreht. 
+\subsection{Bluetooth Mesh Node}\label{subsec:BMN}
+Im Bluetooth Mesh Protokoll gibt es zwei verschiedene arten Geräte, in "unprovisioned device" und einen "Node". Das "unprovisioned device" ist ein Teilnehmer, der unbekannt für das Mesh Netzwerk ist und deshalb keine Rechte besitzt. Wird dieses Gerät nun in das Netzwerk aufgenommen, so wird das "unprovisioned device" zu einem Node. Dieses vorgehen nennt sich "provisioning". Die Hardware für den Node besteht bei allen Geräten aus dem gleichen SoC. Der NRF52840 von Nordic Semiconductor eignet sich aus folgenden Gründen perfekt für diese Anwendung. Die Nodes dürfen um eine lange Laufzeit zu generieren, sehr wenig elektrische Leistung beziehen. Der NRF52840 benötigt im Ruhemodus nur wenige micro Ampere. Ein weiterer Grund ist die sehr gute Dokumentation der Software von Nordic Semiconductor. Die gesamte Software ist im Infozenter erhältlich und frei zugänglich. Weitere Forteile befinden sich in der nachfolgenden Tabelle:
 
-Die Schrittmotoren können mit maximal 2.5A betrieben werden. Bei diesem Strom wird das maximale Drehmoment der Motoren erreicht. Im Betrieb soll das volle Drehmoment jedoch nicht erreicht werden, da die Motoren möglichst unbehindert arbeiten sollten. Die Treiber sollen daher auf einen maximalen Strom von $\sim$ 2A ausgelegt werden.
-
-Die Schrittauflösung der Motoren beträgt $1.8^\circ$ pro Schritt. Dies ergibt eine Auflösung von 200 Schritten pro Umdrehung. Bei dem vormontierten Ritzel des \textit{Ender 3} 3D-Druckers ($\sim$ 13.9mm Durchmesser) ergibt dies einen Weg von 0.218mm pro Schritt in x- und y-Richtung. Da eine höhere Auflösung angestrebt wird, sollen die Motorentreiber microstepping\footnote{\textbf{Microstepping} treibt einen Schrittmotor mit weniger als einem Vollschritt pro Bewegung an. Unter normalen Betriebsbedingungen arbeitet ein Schrittmotor, indem er jeweils einen Vollschritt weiterdreht pro positive Flanke am STEP-Eingang. Microstepping ermöglicht es einem Motor, weitaus feinere Schritte zu machen. Dies geschieht, indem die Steuerung nicht den vollen Stromimpuls an den Schrittmotor sendet.} unterstützen von mindestens 16 Teilschritten pro Schritt ($\frac{1}{16}$). Somit kann eine Auflösung von mindestens 3200 Schritten pro Umdrehung erreicht werden. Dies ergibt wiederum einen Weg von $0.0136$mm pro Schritt. Dies ist jedoch nur eine Überschlagsrechnung. Eine genaue Kalibration kann, nach einem Testdruck, in der Software vorgenommen werden. 
-
-Aus den erwähnten Gründen wurde ein Treiber von \textit{TMC} ausgewählt. Es handelt sich dabei um den \textit{TMC2130} \textit{SilentStepStick} Treiber. 
+\begin{figure}[h]
+	\centering
+	\includegraphics[scale=0.5,angle=0]{nRF52840.png}
+	\caption{nRF52840 SoC}
+	\label{img:nRF52840}
+\end{figure} 
 
 \subsection{Debugging Interface Unit (DIU)}\label{subsec:DIU}
 Die \textit{Debugging Interface Unit} ist dazu da, das Debuggen während dem Entwicklungsprozess der Firmware zu vereinfachen. Via UART/USB-Bridge können Messwerte, Statewerte der aktuell verwendeten Zustandsmaschinen, etc. auf dem Computer ausgegeben werden. Aus Kostengründen würden die verwendeten Bauteile in einer Serienproduktion nicht bestückt werden und stellen daher eine Bestückungsvariante dar.
