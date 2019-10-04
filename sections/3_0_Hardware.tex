@@ -4,22 +4,20 @@ In diesem Kapitel wird die Hardware vom "Gateway Interface System", dem "Univers
 
 
 \subsection{Bluetooth Mesh Node}\label{subsec:BMN}
-Im Bluetooth Mesh Protokoll gibt es zwei verschiedene arten Geräte, in "unprovisioned device" und einen "Node". Das "unprovisioned device" ist ein Teilnehmer, der unbekannt für das Mesh Netzwerk ist und deshalb keine Rechte besitzt. Wird dieses Gerät nun in das Netzwerk aufgenommen, so wird das "unprovisioned device" zu einem Node. Dieses vorgehen nennt sich "provisioning". Die Hardware für den Node besteht bei allen Geräten aus dem gleichen SoC. Der NRF52840 von Nordic Semiconductor eignet sich aus folgenden Gründen perfekt für diese Anwendung. Die Nodes dürfen um eine lange Laufzeit zu generieren, sehr wenig elektrische Leistung beziehen. Der NRF52840 benötigt im Ruhemodus nur wenige micro Ampere. Ein weiterer Grund ist die sehr gute Dokumentation der Software von Nordic Semiconductor. Die gesamte Software ist im Infozenter erhältlich und frei zugänglich. Weitere Forteile befinden sich in der nachfolgenden Tabelle:
+Im Bluetooth Mesh Protokoll gibt es zwei verschiedene  Geräte, ein \textit{"'unprovisioned device"'} und einen \textit{"'Node"'}. Das \textit{"'unprovisioned device"'}  ist ein Teilnehmer, der unbekannt für das Mesh Netzwerk ist und deshalb keine Rechte besitzt. Wird dieses Gerät nun in das Netzwerk aufgenommen, so wird das \textit{"'unprovisioned device"'}  zu einem \textit{"'Node"'}.. Dieses vorgehen nennt sich \textit{"'provisioning"'}. Die Hardware für den \textit{"'Node"'}. besteht bei allen Geräten aus dem gleichen SoC. Der NRF52840 von Nordic Semiconductor eignet sich aus folgenden Gründen perfekt für diese Anwendung. Die \textit{"'Nodes"'}. dürfen um eine lange Laufzeit zu generieren, sehr wenig elektrische Leistung beziehen. Der NRF52840 benötigt im Ruhemodus nur wenige $[\mu A]$. Ein weiterer Grund ist die sehr gute Dokumentation der Software von Nordic Semiconductor. Die gesamte Software ist im Infozenter erhältlich und frei zugänglich. Weitere Vorteile befinden sich in der nachfolgenden Tabelle:
 
-\cite{noauthor_nrf52840_nodate}
 
 \begin{table}[h]
 	\begin{tabular}{ll}
 		\multicolumn{2}{l}{{\ul \textbf{Vorteile des nRF52840}}}       \\
-		Bluetooth 5                          & -95 dBm Sensivität      \\
-		Multiprotokoll (Thread, Zigbee, usw) & +8 dBm Ausgangsleistung \\
-		Geringer Stromverbrauch              & USB 2.0                 \\
-		12bit ADC                            & NFC                     \\
-		1 MB flash und 256kB RAM Speicher    & ARM M4F Cortex         
+		Bluetooth 5                          											   & -95 dBm Sensivität      \\
+		Multiprotokoll (Thread, Zigbee, usw) 						   & +8 dBm Ausgangsleistung \\
+		Geringer Stromverbrauch  (wenige $[\mu A]$)      	& USB 2.0                 \\
+		12bit ADC                            												& NFC                     \\
+		1 MB flash und 256kB RAM Speicher    						& ARM M4F Cortex         
 	\end{tabular}
 \end{table}
 
-//
 
 \begin{figure}[h]
 	\centering
