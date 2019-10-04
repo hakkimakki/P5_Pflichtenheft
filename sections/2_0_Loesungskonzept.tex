@@ -2,17 +2,19 @@
 \section{Lösungskonzept}\label{sec:Loesungskonzept}
 In Abbildung \ref{img:Grobkonzept} ist das Blockschaltbild ersichtlich, welches alle Teilsysteme und Einheiten darstellt. Es ist modular gegliedert und bietet eine Übersicht der Schnittstellen zwischen den einzelnen Modulen. 
 
-Das Lösungskonzept besteht aus physikalisch getrennten \textit{"Nodes"} (Knöten), dem \textit{Gateway Interface System} (GIS) und dem \textit{Universal Peripherial Node} (UPN). , das \textit{Human Maschine System} (HMS) und den Drucker selbst, einen \textit{Ender 3} der Firma \textit{Creality3D}. 
+Das Lösungskonzept besteht aus physikalisch getrennten Systemen, dem \textit{Universal Peripherial Node} (UPN), dem \textit{Gateway Interface System} (GIS), dem \textit{Human Machine Interface} (HMI) und über das Internet verbundene Webserver, im Konzept als \textit{Platform Bindings} bezeichnet.  
 
-Der UPN bildet den Hauptbestandteil des Lösungskonzepts. Es beinhaltet die Druckersteuerung und die Kommunikationsschnittstellen. Um diese zwei Aufgaben zu separieren befinden sich zwei Mikroprozessoren in dieser Einheit. Zusätzlich werden die Aktoren und Sensoren des 3D-Druckers  angesteuert und eingelesen. Eine Statusanzeige zur Visualisierung des Zustandes ist ebenfalls angedacht.
+Der \textit{UPN} beinhaltet einen \textit{Bluetoot Mesh Node} (BMN), welcher die Anbindung an das Mesh Netzwerk ermöglicht. Als Stromversorgung dient das \textit{Power Storage System} (PSS), sowie das \textit{Energy Harvesting System} (EHS). Diese Systeme verfügen über externe angebundene Energiequellen (z.B. Solarzellen). Zusätzlich werden die Aktoren und Sensoren des \textit{UPN} über eine \textit{Universal Peripherial Unit} (UPU) angesteuert bzw. eingelesen.
 
-Das HMS bildet die Benutzerschnittstelle über ein internetfähiges Gerät. Es kommuniziert mittels WLAN mit dem MCS. Über dieses Gerät können Druckaufträge verwaltet und überwacht werden. Auf dem 3D-Drucker befinden sich alle Aktoren und Sensoren. Sie werden über Kabelverbindungen an das MCS angebunden.
+Als Zentrale Einheit des \textit{GIS} dient das \textit{Central Control System} (CCS). Zur Anbindung an das Mesh Netzwerk steht ebenfalls ein \textit{BMN} zur Verfügung. Die Stromversorgung erfolgt über das lokale Stromnetz mithilfe eins Netzteils. Zusätzlich wird die Internetverbindung über das \textit{Mobile Network Interface} (MNI) abgesichert. 
+
+Das \textit{HMI} bildet die Benutzerschnittstelle über ein internetfähiges Gerät. Es kommuniziert mittels WLAN/LAN mit dem \textit{GIS}. Über dieses Gerät kann der Status visualisiert, sowie die Konfigurationen durchgeführt werden.
 
 
 
 \begin{figure}
 	\centering
-	\includegraphics[scale=0.58,angle=90]{19HS-pro5E-TeamBlau_Grobkonzept_03102019_ohne_Rahmen.png}
+	\includegraphics[scale=0.58,angle=90]{19HS-pro5E-TeamBlau_Grobkonzept_04102019_ohne_Rahmen.png}
 	\caption{Blockschaltbild des Lösungskonzepts}
 	\label{img:Grobkonzept}
 \end{figure} 
