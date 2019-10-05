@@ -4,7 +4,7 @@ In diesem Kapitel wird die Hardware vom \textit{Gateway Interface System}, dem \
 
 
 \subsection{Bluetooth Mesh Node (BMN)}\label{subsec:BMN}
-Im Bluetooth Mesh Protokoll gibt es zwei verschiedene  Geräte, ein \textit{"'unprovisioned device"'} und einen \textit{"'Node"'}. Das \textit{"'unprovisioned device"'}  ist ein Teilnehmer, der unbekannt für das Mesh Netzwerk ist und deshalb keine Rechte besitzt. Wird dieses Gerät nun in das Netzwerk aufgenommen, so wird das \textit{"'unprovisioned device"'}  zu einem \textit{"'Node"'}.. Dieses vorgehen nennt sich \textit{"'provisioning"'}. Die Hardware für den \textit{"'Node"'}. besteht bei allen Geräten aus dem gleichen SoC. Der NRF52840 von Nordic Semiconductor eignet sich aus folgenden Gründen perfekt für diese Anwendung. Die \textit{"'Nodes"'}. dürfen um eine lange Laufzeit zu generieren, sehr wenig elektrische Leistung beziehen. Der NRF52840 benötigt im Ruhemodus nur wenige $[\mu A]$. Ein weiterer Grund ist die sehr gute Dokumentation der Software von Nordic Semiconductor. Die gesamte Software ist im Infozenter erhältlich und frei zugänglich. Weitere Vorteile befinden sich in der nachfolgenden Tabelle:
+Im Bluetooth Mesh Protokoll gibt es zwei verschiedene  Geräte, ein \textit{"'unprovisioned device"'} und einen \textit{"'Node"'}. Das \textit{"'unprovisioned device"'}  ist ein Teilnehmer, der unbekannt für das Mesh Netzwerk ist und deshalb keine Rechte besitzt. Wird dieses Gerät nun in das Netzwerk aufgenommen, so wird das \textit{"'unprovisioned device"'}  zu einem \textit{"'Node"'}.. Dieses vorgehen nennt sich \textit{"'provisioning"'}. Die Hardware für den \textit{"'Node"'}. besteht bei allen Geräten aus dem gleichen SoC. Der NRF52840 von Nordic Semiconductor eignet sich aus folgenden Gründen perfekt für diese Anwendung. Die \textit{"'Nodes"'}. dürfen um eine lange Laufzeit zu generieren, sehr wenig elektrische Leistung beziehen. Der NRF52840 benötigt im Ruhemodus nur wenige $[\mu A]$. Ein weiterer Grund ist die sehr gute Dokumentation der Software von Nordic Semiconductor. Die gesamte Software ist im Infocenter erhältlich und frei zugänglich. Weitere Vorteile befinden sich in der Tabelle \ref{tbl:Vorteilte_nRF52}:\\
 
 
 \begin{table}[h]
@@ -16,6 +16,8 @@ Im Bluetooth Mesh Protokoll gibt es zwei verschiedene  Geräte, ein \textit{"'un
 		12bit ADC                            												& NFC                     \\
 		1 MB flash und 256kB RAM Speicher    						& ARM M4F Cortex         
 	\end{tabular}
+	\caption{Vorteile des nRF52840}
+	\label{tbl:Vorteilte_nRF52}
 \end{table}
 
 
