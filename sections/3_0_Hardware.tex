@@ -29,6 +29,26 @@ Im Bluetooth Mesh Protokoll gibt es zwei verschiedene  Geräte, ein \textit{"'un
 	\label{img:nRF52840}
 \end{figure} 
 
+\subsection{Gateway}\label{subsec:Gateway}
+Der Bluetooth-Mesh-Gateway soll die Plattform gegenüber Fremdsystemen öffnen und damit die Schnittstelle zu IOT (Internet of Things) bilden. Damit die Plattform einfach zu betreiben ist, wird beim Gateway in erster Linie auf den Einplatinen-Computer Raspberry-Pi 4 \ref{img:raspberryPi4} gesetzt. Andere Einplatinen-Computer wären ebenfalls denkbar wobei die Raspberry-Pi-Plattform bereits sehr weit verbreitet ist und somit oft bereits verfügbar ist.
+
+Der Raspberry-Pi 4 besitzt nebst Ethernet und WLAN Schnittstellen sowie USB 3 Ports auch von Grund auf mit einem Bluetooth 5 Modul ausgestattet. So könnte er direkt ins Bluetooth-Mesh-Netzwerk integriert werden. Um jedoch die volle Integration zu erreichen, wird in erster Linie der oben erwähnte nRF52840 \ref{subsec:BMN} in Form eines Dongle-Development-Boards \ref{img:nRF52840USBDongle} eingesetzt. Via serieller Schnittstelle wird dieser mit dem Raspberry-Pi 4 verbunden.
+
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[scale=0.7,angle=0]{RASP_PI_4_B.jpg}
+	\caption{Raspberry-Pi 4 \cite{reichelt_elektronik_gmbh_&_co_kg_rasp_nodate}}
+	\label{img:raspberryPi4}
+\end{figure} 
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[scale=0.2,angle=0]{nRF52840_Dongle.png}
+	\caption{nRF52840 USB Dongle \cite{nordic_semiconductor_nrf52840-dongle-promo.png_nodate}}
+	\label{img:nRF52840USBDongle}
+\end{figure} 
+
 
 \subsection{Energy Harvesting System (EHS)}\label{subsec:EHS}
 
