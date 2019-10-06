@@ -27,7 +27,7 @@ Im Bluetooth Mesh Protokoll gibt es zwei verschiedene  Geräte, ein \textit{"'un
 	\label{img:nRF52840}
 \end{figure} 
 
-\subsection{Gateway}\label{subsec:Gateway}
+\subsection{Gateway Interface System (GIS)}\label{subsec:Gateway}
 Der Bluetooth-Mesh-Gateway soll die Plattform gegenüber Fremdsystemen öffnen und damit die Schnittstelle zu IOT (Internet of Things) bilden. Damit die Plattform einfach zu betreiben ist, wird beim Gateway in erster Linie auf den Einplatinen-Computer Raspberry-Pi 4 \ref{img:raspberryPi4} gesetzt. Andere Einplatinen-Computer wären ebenfalls denkbar wobei die Raspberry-Pi-Plattform bereits sehr weit verbreitet ist und somit oft bereits verfügbar ist.
 
 Der Raspberry-Pi 4 besitzt nebst Ethernet und WLAN Schnittstellen sowie USB 3 Ports auch von Grund auf mit einem Bluetooth 5 Modul ausgestattet. So könnte er direkt ins Bluetooth-Mesh-Netzwerk integriert werden. Um jedoch die volle Integration zu erreichen, wird in erster Linie der oben erwähnte nRF52840 \ref{subsec:BMN} in Form eines Dongle-Development-Boards \ref{img:nRF52840USBDongle} eingesetzt. Via serieller Schnittstelle wird dieser mit dem Raspberry-Pi 4 verbunden.
@@ -52,18 +52,9 @@ Der Raspberry-Pi 4 besitzt nebst Ethernet und WLAN Schnittstellen sowie USB 3 Po
 
 Das \textit{EHS} beinhaltet fünf unterschiedlichen Methoden um Energie aus der Umgebung aufzufangen. Diese sind in der folgenden Tabelle mit den wichtigsten Kenndaten aufgefasst. 
 
-\begin{table}[H]
+\begin{figure}[h]
 	\centering
-	\begin{tabular}{|c|c|l|l|l|}\hline
-		\textbf{Quelle} & \textbf{Leistungsdichte} & \textbf{Technologie} & \textbf{Vorteile} & \textbf{Nachteile} \\ \hline
-		
-		Solar & Innenbereich: 10  $\mu$W/cm2  \newline Aussenbereich: 10 mW/cm2 & Photovoltaic & Hohe Leistungsdichte \newline Ausgereift & Nicht immer verfügbar \newline Benötigt exponierte Oberfläche (nicht Implementierbar) \newline Teuer \\ \hline
-		
-		Vibration & Mensch: 4 $\mu$W/cm2 \newline Industrie: 100 $\mu$W/cm2 & Piezoelektrisch \newline Elektrostatisch \newline Elektromagnetisch & Implementierbar \newline Hohe Effizienz & Nicht immer verfügbar \\ \hline
-		
-		
-		
-	\end{tabular}
-	\caption{Lieferobjekte und wichtige Meilensteine}
-	\label{tbl:Lieferobjekte}
-\end{table} 
+	\includegraphics[scale=0.50,angle=0]{Tabelle_Energyharvesting_Sources.jpg}
+	\caption{Tabelle Umgebungsenergie \cite{nordic_semiconductor_nrf52840-dongle-promo.png_nodate}}
+	\label{img:Tabelle_Energyharvesting_Sources}
+\end{figure} 
