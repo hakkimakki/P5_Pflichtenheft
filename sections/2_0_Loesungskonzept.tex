@@ -1,6 +1,12 @@
 \clearpage
 \section{Lösungskonzept}\label{sec:Loesungskonzept}
-In Abbildung \ref{img:Grobkonzept} ist das Blockschaltbild ersichtlich, welches alle Teilsysteme und Einheiten darstellt. Es ist modular gegliedert und bietet eine Übersicht der Schnittstellen zwischen den einzelnen Modulen. 
+Im Zentrum soll die Entwicklung einer \textit{Bluetooth Mesh} Plattform stehen. Diese soll für ein weiterführendes Projekt einsetzbar sein (\textit{Home Automation}, \textit{Agricultur} oder \textit{Industrie}). 
+
+
+In Abbildung \ref{app:Konzeptschema} ist das Blockschaltbild ersichtlich, welches alle Teilsysteme und Einheiten darstellt. Es ist modular gegliedert und bietet eine Übersicht der Schnittstellen zwischen den einzelnen Modulen. 
+
+
+\subsection{Aufbau}\label{subsec:Loesungskonzept_Aufbau}
 
 Das Lösungskonzept besteht aus physikalisch getrennten Systemen, dem \textit{Universal Peripherial Node} (UPN), dem \textit{Gateway Interface System} (GIS), dem \textit{Human Machine Interface} (HMI) und über das Internet verbundene Webserver, im Konzept als \textit{Platform Bindings} bezeichnet.  
 
@@ -10,15 +16,9 @@ Als Zentrale Einheit des \textit{GIS} dient das \textit{Central Control System} 
 
 Das \textit{HMI} bildet die Benutzerschnittstelle über ein internetfähiges Gerät. Es kommuniziert mittels WLAN/LAN mit dem \textit{GIS}. Über dieses Gerät kann der Status visualisiert, sowie die Konfigurationen durchgeführt werden.
 
-\todo[inline]{Entwicklung einer Bluetooth-Mesh-Plattform sollte im Zentrum stehen. Ausserdem sollte erwähnt werden, dass im P5 die Plattform gebaut wird und im P6 dann allenfalls eine spezifische Anwendung daraus entstehen soll.}
 
 
-\begin{figure}
-	\centering
-	\includegraphics[scale=0.58,angle=90]{19HS-pro5E-TeamBlau_Grobkonzept_04102019_ohne_Rahmen.png}
-	\caption{Blockschaltbild des Lösungskonzepts}
-	\label{img:Grobkonzept}
-\end{figure} 
+
 
 
 
