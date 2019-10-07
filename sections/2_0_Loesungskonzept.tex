@@ -2,17 +2,21 @@
 \section{Lösungskonzept}\label{sec:Loesungskonzept}
 Im Zentrum soll die Entwicklung einer \textit{Bluetooth Mesh} Plattform stehen. Diese soll für ein weiterführendes Projekt einsetzbar sein (\textit{Home Automation}, \textit{Agricultur} oder \textit{Industrie}). 
 
+\section{Konzeptschema}\label{sec:Konzeptschema}
 
 In Abbildung \ref{app:Konzeptschema} ist das Blockschaltbild ersichtlich, welches alle Teilsysteme und Einheiten darstellt. Es ist modular gegliedert und bietet eine Übersicht der Schnittstellen zwischen den einzelnen Modulen. 
 
+Das Konzeptschema besteht aus physikalisch getrennten Systemen, dem \textit{Universal Peripherial Node} (UPN), dem \textit{Gateway Interface System} (GIS), dem \textit{Human Machine Interface} (HMI) und über das Internet verbundene Webserver, im Konzept als \textit{Platform Bindings} bezeichnet.
 
-\subsection{Aufbau}\label{subsec:Loesungskonzept_Aufbau}
-
-Das Lösungskonzept besteht aus physikalisch getrennten Systemen, dem \textit{Universal Peripherial Node} (UPN), dem \textit{Gateway Interface System} (GIS), dem \textit{Human Machine Interface} (HMI) und über das Internet verbundene Webserver, im Konzept als \textit{Platform Bindings} bezeichnet.  
+\subsection{UPN}\label{sec:Konzeptschema_UPN}  
 
 Der \textit{UPN} beinhaltet einen \textit{Bluetoot Mesh Node} (BMN), welcher die Anbindung an das Mesh Netzwerk ermöglicht. Als Stromversorgung dient das \textit{Power Storage System} (PSS), sowie das \textit{Energy Harvesting System} (EHS). Diese Systeme verfügen über externe angebundene Energiequellen (z.B. Solarzellen). Zusätzlich werden die Aktoren und Sensoren des \textit{UPN} über eine \textit{Universal Peripherial Unit} (UPU) angesteuert bzw. eingelesen.
 
+\subsection{GIS}\label{sec:Konzeptschema_GIS}
+
 Als Zentrale Einheit des \textit{GIS} dient das \textit{Central Control System} (CCS). Zur Anbindung an das Mesh Netzwerk steht ebenfalls ein \textit{BMN} zur Verfügung. Die Stromversorgung erfolgt über das lokale Stromnetz mithilfe eines Netzteils. Zusätzlich wird die Internetverbindung über das \textit{Mobile Network Interface} (MNI) abgesichert. 
+
+\subsection{HMI}\label{sec:Konzeptschema_HMI}
 
 Das \textit{HMI} bildet die Benutzerschnittstelle über ein internetfähiges Gerät. Es kommuniziert mittels WLAN/LAN mit dem \textit{GIS}. Über dieses Gerät kann der Status visualisiert, sowie die Konfigurationen durchgeführt werden.
 
