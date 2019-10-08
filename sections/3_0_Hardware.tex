@@ -28,9 +28,11 @@ Im Bluetooth Mesh Protokoll gibt es zwei verschiedene  Geräte, ein \textit{"'un
 \end{figure} 
 
 \subsection{Gateway Interface System (GIS)}\label{subsec:Gateway}
-Der Bluetooth-Mesh-Gateway soll die Plattform gegenüber Fremdsystemen öffnen und damit die Schnittstelle zu IOT (Internet of Things) bilden. Damit die Plattform einfach zu betreiben ist, wird beim Gateway in erster Linie auf den Einplatinen-Computer Raspberry-Pi 4 (siehe Abschnitt \ref{img:raspberryPi4}) gesetzt. Andere Einplatinen-Computer wären ebenfalls denkbar wobei die Raspberry-Pi-Plattform bereits sehr weit verbreitet ist und somit oft bereits verfügbar ist.
+Der Bluetooth-Mesh-Gateway soll die Plattform gegenüber Fremdsystemen öffnen und damit die Schnittstelle zu IOT Anwendungen (Internet of Things) bilden. Damit die Plattform einfach zu betreiben ist, wird beim Gateway in erster Linie auf den Einplatinen-Computer Raspberry-Pi 4 (siehe Abschnitt \ref{img:raspberryPi4}) gesetzt. Andere Einplatinen-Computer wären ebenfalls denkbar wobei die Raspberry-Pi-Plattform bereits sehr weit verbreitet ist und somit oft bereits verfügbar ist.
 
 Der Raspberry-Pi 4 besitzt nebst Ethernet und WLAN Schnittstellen sowie USB 3 Ports auch von Grund auf mit einem Bluetooth 5 Modul ausgestattet. So könnte er direkt ins Bluetooth-Mesh-Netzwerk integriert werden. Um jedoch die volle Integration zu erreichen, wird in erster Linie der oben erwähnte nRF52840 (siehe Abschnitt \ref{subsec:BMN}) in Form eines Dongle-Development-Boards \ref{img:nRF52840USBDongle} eingesetzt. Via serieller Schnittstelle wird dieser mit dem Raspberry-Pi 4 verbunden.
+
+Als Ergänzung oder Alternative zum Gateway soll beispielsweise ein Mobiltelefon welches ein Bluetooth Modul besitzt ins Mesh Netzwerk integriert werden können. Darüber sollen dann Konfigurationen sowie die Ein- und Ausgabe von Parametern und Daten möglich sein. 
 
 
 \begin{figure}[h]
@@ -47,8 +49,6 @@ Der Raspberry-Pi 4 besitzt nebst Ethernet und WLAN Schnittstellen sowie USB 3 Po
 	\label{img:nRF52840USBDongle}
 \end{figure} 
 
-
-\todo [inline] {Mobiltelefon soll den Gateway ersetzen. Ist als Wunschziel definiert.}
 
 \subsection{Energy Harvesting System (EHS)}\label{subsec:EHS}
 
