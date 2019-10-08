@@ -1,6 +1,6 @@
 \clearpage
 \subsection{Projektziele}\label{subsec:Projektziele}
-In Tabelle \ref{tab:Projektziele} sind die Pflicht- und Wunschziele für dieses Projekt festgehalten.
+In den beiden Tabellen \ref{tab:Pflichtziele} und \ref{tab:Wunschziele} sind die Pflicht- resp. Wunschziele für dieses Projekt festgehalten.
 
 \begin{table}[H]
 \begin{tabular}{ | C{0.9cm} | p{3.3cm} | p{10cm} |}
@@ -20,44 +20,57 @@ P5 & Netzunabhängig & Durch Versorgung mittels Batterie und Energy-Harvesting k
 
 P6 & Energy-Harvesting & Für die Versorgung der UPN werden verschiedene Varianten für das Energy-Harvesting entwickelt. Das Ergebnis wird eine Variantenstudie sein.\\ \hline
 
-P7 & Gateway & Zur Konfiguration des Bluetooth-Mesh-Netzwerks steht ein Gateway basierend auf Standard Hardware (Raspberry-Pi o.ä.) zur Verfügung.\\ \hline
+P7 & Gateway & Zur Konfiguration des Bluetooth-Mesh-Netzwerks steht ein Gateway basierend auf Standard Hardware (Raspberry-Pi + nRF52840 USB Dongle o.ä.) zur Verfügung.\\ \hline
     
 P8 & LAN/WLAN & Für die Integration in TCP/IP basierte Systeme bietet der Gateway eine entsprechende Schnittstelle.\\ \hline
-    	
-P9 & HMI & Ein Human-Machine-Interface unterstützt den User bei der Konfiguration des Mesh-Netzwerks.\\ \hline
 
-P10 & CLI & Mittels Command-Line-Interface kann das Mesh-Netzwerk verwaltet werden.\\ \hline
+P9 & CLI & Mittels Command-Line-Interface kann das Mesh-Netzwerk verwaltet werden.\\ \hline
 
-    	 \hline \hline   
- \multicolumn{3}{|l|}{\textbf{Wunschziele}}\\ \hline 	
-    
+\end{tabular}\\
+\caption{Pflichtziele}
+\label{tab:Pflichtziele}
+\end{table}
+
+
+\begin{table}[H]
+\begin{tabular}{ | C{0.9cm} | p{3.3cm} | p{10cm} |}
+	\hline
+	\multicolumn{3}{|l|}{\textbf{Wunschziele}}\\ \hline
+\textbf{Nr.}& \textbf{Ziel}& \textbf{Beschrieb}\\ \hline
+    	 
     
 W1 & UPN Konfiguration via Mesh & Einstellungen des UPN können via Mesh Netzwerk angepasst werden und somit z.B. die Peripheriekonfiguration verändert werden.\\ \hline
 
 W2 & Firmwareupgrade via Mesh & Die Firmware der UPN wird via Mesh-Netzwerk aktualisiert. \\ \hline
 
-W3 & BLR und BLE & Bluetooth Long Range und Bluetooth Low Energy ergänzen das Bluetooth Mesh um die Reichweite zu vergrössern oder den Energieverbrauch nochmals zu vermindern. \\ \hline
+W3 & BLR und BLE & Bluetooth Long Range (BLR) und Bluetooth Low Energy (BLE) ergänzen das Bluetooth Mesh um die Reichweite zu vergrössern oder den Energieverbrauch nochmals zu vermindern. \\ \hline
 
-W4 & Dedizierte UPN Hardware & Das UPN ist als dedizierte Hardware realisiert und somit einsatzbereit. \\ \hline
+W4 & Dedizierte Hardware UPN & Das UPN ist als dedizierte Hardware realisiert und somit einsatzbereit. \\ \hline
 
 W5 & Datenschnittstelle & Mittels passender Datenschnittstelle auf dem Gateway können Fremdsysteme wie Apple Homekit, Google Home oder KNX angebunden werden.\\ \hline
 
-W6 & Webinterface & Für die Verwaltung des Mesh-Netzwerks und die Anbindung an Fremdsysteme steht ein Web Applikation zur Verfügung. \\ \hline
+W6 & UDP Kommunikation & Damit keine Daten auf dem Gateway zwischen gespeichert werden müssen können die Nodes mittels beliebigem UDP Protokoll (MGTT, CoAP, usw.)direkt mit Fremdsystemen kommunizieren.\\ \hline
 
-W7 & Dedizierte Gateway Hardware & Der Gateway ist auf einer dedizierten Hardware umgesetzt. \\ \hline
+W7 & HMI & Ein Human-Machine-Interface in Form einer Webapplikation unterstützt den User bei der Konfiguration des Mesh-Netzwerks und ermöglicht die Anbindung an Fremdsysteme. \\ \hline
 
-W8 & GSM/LTE & Für Feldanwendungen besitzt der Gateway ein GSM/LTE Modul. \\ \hline
+W8 & Dedizierte Gateway Hardware & Der Gateway ist auf einer dedizierten Hardware umgesetzt. \\ \hline
 
-W9 & Versuchsaufbau Energy-Harvesting & Erfolg versprechende Energy-Harvesting-Systeme werden in einem Versuchsaufbau auf deren Tauglichkeit weiter geprüft. \\ \hline
+W9 & Onboard Bluetooth & Da der Raspberry-Pi 4 bereits ein Bluetooh 5 Chip besitzt soll direkt dieser verwendet werden anstelle eines angeschlossenen Dongles. \\ \hline
+
+W10 & Mobiltelefon & Anstelle oder ergänzend zum Gateways kann ein Mobiltelefon ins Mesh-Netzwerk eingebunden werden um Konfigurationen vorzunehmen oder Daten aus zu lesen. \\ \hline
+
+W11 & GSM/LTE & Für Feldanwendungen besitzt der Gateway ein GSM/LTE Modul. \\ \hline
+
+W12 & Versuchsaufbau Energy-Harvesting & Erfolg versprechende Energy-Harvesting-Systeme werden in einem Versuchsaufbau auf deren Tauglichkeit weiter geprüft. \\ \hline
 
 
 \end{tabular}\\
-\caption{Projektziele}
-\label{tab:Projektziele}
+\caption{Wunschziele}
+\label{tab:Wunschziele}
 \end{table}
 
 
-\todo [inline]{- W3}
+\todo [inline]{Bitte Ziele durchlesen und allenfalls Anpassungen vornehmen.}
 
 
 
